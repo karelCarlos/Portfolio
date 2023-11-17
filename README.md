@@ -1,2 +1,2 @@
 # Portfolio
-Implementing my knowledge in Front-end development.
+Theories, YT Videos, certificates to practical approach in coding my portfolio.
