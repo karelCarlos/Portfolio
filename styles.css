@@ -1,3 +1,5 @@
+/*ELEMEMTS CSS*/
+
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -9,6 +11,7 @@ header {
     color: white;
     text-align: center;
     padding: 20px;
+    height: 100vh;
 }
 
 main {
@@ -17,6 +20,7 @@ main {
 
 section {
     margin-bottom: 20px;
+    height: 100vh;
 }
 
 footer {
@@ -24,9 +28,9 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
-    position: fixed;
     width: 100%;
     bottom: 0;
 }
-```
+
+/*ID CSS*/
 
