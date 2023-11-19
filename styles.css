@@ -1,36 +1,42 @@
-/*ELEMEMTS CSS*/
+/*ELELEMENTS CSS*/
 
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
+    border: none;
+    padding: 0;
+    width: 100%;
+    border: none;
 }
 
 header {
-    background-color: #333;
-    color: white;
+    background-color: white;
+    color: black;
     text-align: center;
-    padding: 20px;
+    padding: 70px;
     height: 100vh;
-}
-
-main {
-    padding: 20px;
 }
 
 section {
-    margin-bottom: 20px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 70px;
     height: 100vh;
 }
 
+
 footer {
-    background-color: #333;
+    background-color: black;
     color: white;
     text-align: center;
     padding: 10px;
+    position: static;
     width: 100%;
     bottom: 0;
+    border: none;
 }
 
-/*ID CSS*/
 
+/*ID CSS*/
