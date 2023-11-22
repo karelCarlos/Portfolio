@@ -1,4 +1,7 @@
 /*ELELEMENTS CSS*/
+html {
+  scroll-behavior: smooth;
+}
 
 body {
     font-family: 'Arial', sans-serif;
@@ -10,12 +13,25 @@ body {
     border: none;
 }
 
-header {
-    background-color: white;
-    color: black;
-    text-align: center;
-    padding: 70px;
-    height: 100vh;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: gray;
+  overflow: hidden;
+  
+}
+
+li {
+  float: left;
+}
+
+a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 14px 16px;
+  text-align: right;
 }
 
 section {
@@ -33,10 +49,20 @@ footer {
     text-align: center;
     padding: 10px;
     position: static;
-    width: 100%;
     bottom: 0;
     border: none;
 }
 
 
-/*ID CSS*/
+/*CLASS CSS*/
+.home {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 70px;
+    height: 100vh;
+}
+
+.home : hover {
+  background-color: #555;
+}
