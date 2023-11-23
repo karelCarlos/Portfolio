@@ -17,9 +17,9 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: gray;
+  background-color: black;
   overflow: hidden;
-  
+  color: white;
 }
 
 li {
