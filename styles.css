@@ -3,6 +3,7 @@
   font-family: 'Roboto Mono', monospace;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 html {
@@ -10,7 +11,9 @@ html {
 }
 
 body {
-  
+  background-color: #ddd;
+  font-family: 'Roboto Mono', monospace;
+  line-height: 1.6;
 }
 
 ul {
@@ -28,8 +31,13 @@ a {
   color: white;
   text-decoration: none;
   padding: 14px 16px;
-  text-align: right;
 }
+
+/* Main section styles */
+main {
+  padding: 20px;
+}
+
 
 section {
     color: black;
@@ -53,8 +61,28 @@ footer {
     color: black;
     text-align: center;
     padding: 70px;
+  
 }
 
 .home : hover {
   background-color: #555;
 }
+
+/*  ID CSS*/
+#projects {
+  text-align: center;
+  padding: 20px;
+}
+
+/* About Me section styles */
+#about_me {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Contacts section styles */
+#contacts {
+  text-align: center;
+  padding: 20px;
+}
+
