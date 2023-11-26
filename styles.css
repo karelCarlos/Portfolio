@@ -1,24 +1,49 @@
-/*ELELEMENTS CSS*/
+/* ELEMENTS CSS */
 * {
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Roboto Mono', Sans-Serif, Monospace;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
 html {
   scroll-behavior: smooth;
 }
 
+/* Default styles for all screen sizes */
 body {
-  background-color: #ddd;
-  font-family: 'Roboto Mono', monospace;
-  line-height: 1.6;
+  background-color: #f0f0f0;
+}
+
+/* Media query for screens 600px or smaller */
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+/* Media query for screens between 601px and 900px */
+@media screen and (min-width: 601px) and (max-width: 900px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+/* Media query for screens larger than 900px */
+@media screen and (min-width: 901px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+nav {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  background-color: transparent;
 }
 
 ul {
   list-style-type: none;
-  background-color: black;
   overflow: hidden;
 }
 
@@ -38,51 +63,57 @@ main {
   padding: 20px;
 }
 
-
 section {
-    color: black;
-    text-align: center;
-    padding: 70px;
-    height: 100vh;
+  color: black;
+  text-align: center;
+  padding: 70px;
+  min-height: 100vh; /* changed 'height' to 'min-height' */
 }
 
 footer {
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    position: static;
-    bottom: 0;
-    border: none;
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding: 10px;
+  bottom: 0;
+  width: 100%;
 }
 
-/*CLASS CSS*/
+/* CLASS CSS */
 .home {
-    color: black;
-    text-align: center;
-    padding: 70px;
-  
-}
-
-.home : hover {
-  background-color: #555;
-}
-
-/*  ID CSS*/
-#projects {
+  color: white;
   text-align: center;
-  padding: 20px;
+  padding: 70px;
+  background-color: black;
+  transition: background-color 0.3s; /* added transition effect */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-/* About Me section styles */
-#about_me {
-  text-align: center;
-  padding: 20px;
-}
-
-/* Contacts section styles */
+/* ID CSS */
+#projects,
+#about_me,
 #contacts {
   text-align: center;
   padding: 20px;
 }
+#name {
+  font-size: 15px;
+  border-right: 5px solid white;
+  padding: 10px;
+  margin-right: 10px 5px;
+}
 
+#home-desc {
+  text-align: center;
+  margin: 5px;
+}
+
+#scrollTop {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  display: none;
+  cursor: pointer;
+}
