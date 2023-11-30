@@ -56,5 +56,14 @@ header {
   cursor: pointer;
   display: none;
 }
+section {
+  padding: 160px 16% 90px;
+}
+.home {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  
+}
 
 
